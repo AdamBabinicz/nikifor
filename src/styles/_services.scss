@@ -1,0 +1,56 @@
+.ServicesSection {
+  max-width: 350px;
+  .service {
+    width: 95%;
+    background: #333;
+    border-left: 1px solid #666666;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    border-top: 8px solid #666666;
+    transition: all 0.4s ease-in-out;
+    font-family: "Tahoma", sans-serif;
+    @media screen and (max-width: 1400px) {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    &:hover {
+      border-top: 8px solid #ffffffb9;
+    }
+
+    .service-content {
+      padding: 1rem;
+      .s-title {
+        font-size: 1.6rem;
+        font-weight: 500;
+        position: relative;
+        padding-bottom: 1rem;
+        margin: 1rem 0;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 30%;
+          height: 1px;
+          background: #464646;
+        }
+      }
+      .s-text1 {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.431);
+      }
+    }
+  }
+}
+
+.servives-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, auto));
+  // justify-content: space-around;
+  margin-top: 4rem;
+  @media screen and (max-width: 676px) {
+    // flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}

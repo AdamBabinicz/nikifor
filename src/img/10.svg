@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 65" width="55" height="65">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #394553;stroke-linejoin:round;stroke-width: 2.5 } 
+		.shp1 { fill: none;stroke: #394553;stroke-linecap:round;stroke-width: 2.5 } 
+		.shp2 { fill: none;stroke: #394553;stroke-width: 2.5 } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="shp0" d="M47.37 24.59L50.81 24.59C52.46 24.59 53.81 25.94 53.81 27.59L53.81 60C53.81 61.65 52.46 63 50.81 63L4.19 63C2.54 63 1.19 61.65 1.19 60L1.19 27.59C1.19 25.94 2.54 24.59 4.19 24.59L22.85 24.59" />
+		<path id="Layer" class="shp1" d="" />
+		<path id="Layer" class="shp1" d="" />
+		<path id="Layer" class="shp0" d="M25.31 62.96L25.31 42.45L30.23 38.67" />
+		<path id="Layer" class="shp1" d="M25.22 52.63L13.06 52.63" />
+		<path id="Layer" class="shp2" d="M44.16 45.73L36.52 45.72" />
+		<path id="Layer" class="shp2" d="M20.96 33.74L1.27 33.73" />
+		<path id="Layer" class="shp2" d="M12.93 63.01L12.93 24.63" />
+		<path id="Layer" class="shp0" d="M44.2 62.79L44.2 36.81L53.77 36.81" />
+		<path id="Layer" class="shp0" d="M46.28 13.09C46.28 19.21 35.19 37.89 35.19 37.89C35.19 37.89 24.09 19.21 24.09 13.09C24.09 6.96 29.06 2 35.19 2C41.31 2 46.28 6.96 46.28 13.09Z" />
+		<path id="Layer" class="shp0" d="M35.19 17.82C32.57 17.82 30.45 15.7 30.45 13.09C30.45 10.47 32.57 8.35 35.19 8.35C37.81 8.35 39.92 10.47 39.92 13.09C39.92 15.7 37.81 17.82 35.19 17.82Z" />
+	</g>
+</svg>
