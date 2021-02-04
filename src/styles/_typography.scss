@@ -27,9 +27,17 @@
   text-align: center;
   font-size: 3.8rem;
 
+  @media screen and (max-width: 480px) {
+    font-size: 2.5rem;
+  }
+
   span {
     color: inherit;
     font-size: 2.5rem;
+
+    @media screen and (max-width: 480px) {
+      font-size: 2rem;
+    }
   }
 }
 .h-sub-text {
