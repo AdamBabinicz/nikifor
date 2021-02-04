@@ -4,10 +4,12 @@
   // left: 50%;
   // transform: translate(-50%, -50%);
   width: 80%;
-  // display: flex;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // display: grid;
+  // place-items: center;
   text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.72);
 
   @media screen and (max-width: 768px) {
