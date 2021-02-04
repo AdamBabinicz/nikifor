@@ -8,20 +8,31 @@
     align-items: center;
     background: #4d4d4d;
     padding: 1rem 0;
-    .right-items {
-      margin-left: 2rem;
-    }
+    // .right-items {
+    //   margin-left: 1rem;
+    // }
     img {
-      padding: 1rem;
+      padding: 0.5rem;
       border: 1px solid #4d4d4d;
-      margin-left: 2rem;
+      margin-left: 1rem;
       width: 26%;
+
+      @media screen and (max-width: 480px) {
+        width: 40%;
+      }
     }
     .right-items {
       font-family: "Tahoma", sans-serif;
+      margin-left: 0.5rem;
       h6 {
         font-size: 1.4rem;
         font-weight: 500;
+        margin-bottom: 1rem;
+        padding-right: 1rem;
+
+        @media screen and (max-width: 480px) {
+          font-size: 1rem;
+        }
       }
       p {
         font-size: 0.8rem;
