@@ -37,7 +37,7 @@ function NavBar() {
           </li>
         </ul>
         <footer className="footer">
-          <p>2021</p>
+          <p className="copyright">Radom, 2021 - {new Date().getFullYear()}.</p>
         </footer>
       </nav>
     </div>
