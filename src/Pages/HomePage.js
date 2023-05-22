@@ -10,7 +10,7 @@ function HomePage() {
     <div className="HomePage">
       <header className="hero">
         <h1 className="hero-text">
-          Apolonuisz&nbsp;Drowniak <br />
+          Epifaniusz&nbsp;Drowniak <br />
           <span>prymitywista</span>
         </h1>
         <p className="h-sub-text">1895 - 1968</p>
